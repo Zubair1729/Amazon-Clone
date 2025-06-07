@@ -1,0 +1,375 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav {
+    background-color: #0F1111;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+body {
+    margin: 0;
+    padding-top: 50px;
+    background-color: rgb(226, 223, 223);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#img {
+    height: 53px;
+}
+
+#loc {
+    padding: 10px;
+    height: 18px;
+    width: 15px;
+    color: white;
+}
+
+.inadd {
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.inadd2 {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+#second {
+    display: flex;
+
+}
+
+#third {
+    display: flex;
+    align-items: center;
+    width: 52%;
+    font-size: 14px;
+}
+
+select {
+
+    background-color: #0F1111;
+    color: rgb(170, 165, 165);
+    border: 0px;
+
+}
+
+#third input {
+    height: 38px;
+    padding-right: 700px;
+}
+
+#third select {
+    background-color: #E6E6E6;
+}
+
+.filter {
+    height: 40px;
+    width: 92px;
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 2px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+#se {
+    border-radius: 0px 4px 4px 0px;
+    font-size: larger;
+    color: white;
+    background-color: rgb(230, 181, 92);
+}
+
+.bod:hover {
+
+    border: 2px solid white;
+    height: 100%;
+}
+
+#pane {
+    background-color: #232F3E;
+    height: 39px;
+    color: #FFFFFF
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+}
+
+ul select {
+    background-color: #232F3E;
+}
+
+#con {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-weight: bolder;
+
+}
+
+#ham {
+    height: 30px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+header li:hover {
+    box-sizing: border-box;
+    border: 2px solid white;
+
+    height: 33px;
+}
+
+#img2 {
+    background-image: url("back.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 1480px;
+    position: relative;
+    top: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.inbox img {
+    height: 80px;
+    width: 100px;
+    display: block;
+}
+
+.inbox small {
+    font-size: 12px;
+}
+
+.box {
+    height: 350px;
+    width: 300px;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 3px;
+   
+}
+
+.longbox {
+    height: 280px;
+    width: 1380px;
+    background-color: white;
+    
+    margin: 8px;
+}
+
+.longbox img {
+    position: relative;
+    top: 10px;
+    width: 1250px;
+}
+
+.longbox h2 {
+    display: inline;
+    padding-left: 15px;
+}
+
+.box h2 {
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+.outbox {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3px;
+}
+
+.box a {
+    position: relative;
+    top: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.longbox a {
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.cardbox {
+  
+    height: 280px;
+    width: 1380px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: white;
+    align-items: center;
+
+}
+
+.card {
+    border: 1px solid rgb(224, 217, 217);
+    height: 250px;
+    width: 140px;
+display: flex;
+justify-content: center;
+
+flex-direction: column;
+margin:10px;
+    border-radius:10px;
+}
+.card img{
+display: block;
+}
+.card a{
+    text-align: center;
+font-size:12px;
+text-decoration: none;
+color:black;
+}
+.card #price{
+    text-align: center;
+font-size:15px;
+line-height: 40px;
+}
+#price del{
+    font-size:10px;
+    color:grey;
+}
+#sign {
+    position: relative;
+    top: 250px;
+    background-color: white;
+    text-align: center;
+    font-size: smaller;
+    display: flex;
+
+}
+
+#signin {
+    margin: 10px;
+    padding: 40px;
+    width: 1800px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#signin button {
+    margin: 15px;
+    width: 200px;
+    height: 25px;
+    background-color: rgba(228, 184, 104, 0.911);
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    position: relative;
+    top: 250px;
+    background-color: #36475c;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    font-size: smaller;
+
+}
+
+#f0 {
+    padding: 10px;
+}
+
+#f1 {
+    padding-top: 20px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+
+}
+
+#f1 li {
+    list-style: none;
+    padding: 5px;
+    font-size: smaller;
+}
+
+#f2 {
+    background-color: #232F3E;
+    padding: 0px;
+    padding-bottom: 20px;
+
+}
+
+#f2 button {
+    background-color: #232F3E;
+    color: white;
+    height: 25px;
+    width: 70px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin: 3px;
+    border-radius: 5px;
+    ;
+}
+
+#f2 img {
+    height: 40px;
+    width: 120px;
+    position: relative;
+    top: 10px;
+    right: 30px;
+}
+
+#f3 {
+    padding-top: 20px;
+    background-color: #0F1111;
+    line-height: 25px;
+    font-size: 13px;
+}
